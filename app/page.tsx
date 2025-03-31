@@ -13,7 +13,7 @@ import Link from "next/link"
 
 export default function Home() {
   const [stage, setStage] = useState<"letter" | "greeting" | "quiz" | "reward">("letter")
-  const [audioEnabled, setAudioEnabled] = useState(false)
+  const [audioEnabled, setAudioEnabled] = useState(true)
 
   const handleLetterClick = () => {
     setStage("greeting")
