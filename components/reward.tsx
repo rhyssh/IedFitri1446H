@@ -64,7 +64,7 @@ export default function Reward({ onRestart }: RewardProps) {
       >
         <Button
           className="bg-gradient-to-r from-amber-500 to-amber-600 text-white hover:from-amber-600 hover:to-amber-700"
-          onClick={() => window.open("https://app.shopeepay.co.id/u/U2GVQVEJXQiWB8mX44K7y", "_blank")}
+          onClick={() => window.open("https://app.shopeepay.co.id/u/PRTdtVMaesip3rfg7ztYV", "_blank")}
         >
           Claim THR Now!
         </Button>
